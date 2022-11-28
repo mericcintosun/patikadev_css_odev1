@@ -1,0 +1,95 @@
+/* 
+    RENK PALETLERİ
+    #FEB06A TURUNCUMSU
+    #4C5270 LACİVERTİMSİ
+    #FFFFFF BEYAZ
+    #36EEE0 TURKUAZ
+    #128F8B ORMAN YEŞİLİ
+    #081427 SİYAHIMSI
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+header {
+    height: 60px;
+}
+body {
+    font-family: 'poppins', sans-serif;
+    background-color:#E7EDEB ;
+}
+h1 {
+    color:#FEB06A;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+a {
+    color: black;
+}
+.container {
+    width: 50%;
+    background-color:#4C5270;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+nav ul {
+    text-decoration: none;
+    display: flex;
+    list-style:none;
+    column-gap: 125px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+.menu ul li a{
+    width: 500px;
+    color: white;
+    text-decoration: none;
+}
+.h2 {
+    text-align: center;
+    color:#128F8B;
+    font-size: 30px;
+    letter-spacing: 20px;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+.paragraf {
+    display: block;
+    margin: auto;
+    text-align: justify;
+    font-size: 16px;
+    width: 750px;
+}
+.kim {
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    color:#081427;
+    margin-bottom: 10px;
+}
+.contact a{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #864f1e;
+}
